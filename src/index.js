@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import About from "./About";
+import App from "./App";
 
 const title = "My Minimal React Webpack Babel Setup";
 
 ReactDOM.render(
-<div><About />
+<div><App />
 </div>, document.getElementById("app"));
 
 module.hot.accept();
